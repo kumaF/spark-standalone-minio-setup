@@ -1,0 +1,11 @@
+[project]
+name = "spark-minio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyspark[sql]>=3.5.4",
+    "python-dotenv>=1.0.1",
+    "s3fs>=2025.2.0",
+]
